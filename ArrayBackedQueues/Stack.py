@@ -13,6 +13,8 @@ class Stack:
             self.a[self.n] = x
         self.n += 1
 
+#This is a new comment that I am adding so that we can see the version changes. 
+
     # Here we pop the end item off of the stack. We modify the value of n, and will overwrite this data later.
     def pop(self):
         x = self.a[self.n-1]
